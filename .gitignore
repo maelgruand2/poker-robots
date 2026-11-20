@@ -1,0 +1,67 @@
+﻿# Visual Studio & IDE
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+.vscode/
+
+# .NET 10 Build Artifacts
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# C++ / MSBuild / CMake Build Artifacts
+x64/
+x86/
+ARM64/
+[Dd]ebug/
+[Rr]elease/
+*.tlog/
+*.ipch
+*.pch
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+*.out
+*.app
+CMakeBuild/
+build/
+out/
+
+# ROS 2 (colcon)
+install/
+build/
+log/
+
+# Webots
+worlds/*.wbproj
+controllers/*/build/
+
+# IA / Modèles lourds (ONNX, GGUF, Safetensors)
+*.onnx
+*.gguf
+*.safetensors
+*.pt
+*.pth
+models/
+
+# OS & Temp
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
